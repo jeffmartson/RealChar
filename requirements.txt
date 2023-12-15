@@ -28,3 +28,5 @@ typing
 uvicorn
 websockets
 firebase_admin
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+sympy>=1.12 # not directly required, pinned by Snyk to avoid a vulnerability
