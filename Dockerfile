@@ -1,4 +1,4 @@
-FROM python:slim
+FROM python:3.12.4-slim-bookworm
 
 # Install system-level dependencies
 RUN apt-get update && apt-get install -y build-essential portaudio19-dev libffi-dev libssl-dev ffmpeg
