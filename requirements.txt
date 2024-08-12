@@ -28,3 +28,4 @@ typing
 uvicorn
 websockets
 firebase_admin
+nltk>=3.8.2 # not directly required, pinned by Snyk to avoid a vulnerability
