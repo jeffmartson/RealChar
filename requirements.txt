@@ -28,3 +28,5 @@ typing
 uvicorn
 websockets
 firebase_admin
+torch>=2.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
+transformers>=4.53.0 # not directly required, pinned by Snyk to avoid a vulnerability
