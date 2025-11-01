@@ -28,3 +28,5 @@ typing
 uvicorn
 websockets
 firebase_admin
+starlette>=0.49.1 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
